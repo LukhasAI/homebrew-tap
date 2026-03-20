@@ -4,7 +4,7 @@ class Lukhas < Formula
   desc "LUKHAS CLI — Command-line interface for the Constellation Framework"
   homepage "https://lukhas.ai"
   url "https://github.com/LukhasAI/homebrew-tap/releases/download/v0.9.1/lukhas-cli-0.9.1.tar.gz"
-  sha256 "69dd97af2e3671fbfdeae5f8c24a9387d053675d6b5eadd391d54d2e97052aa5"
+  sha256 "1360138b81a880c969d69a7db9d15141067774af31b77b5112799a290f643e1a"
   version "0.9.1"
   license "Proprietary"
 
