@@ -30,6 +30,28 @@ class Lukhas < Formula
     virtualenv_install_with_resources
   end
 
+  def caveats
+    <<~EOS
+      ╔══════════════════════════════════════════════════════╗
+      ║          LUKHΛS CLI installed successfully           ║
+      ╚══════════════════════════════════════════════════════╝
+
+      To start:
+
+          lukhas
+
+      First-time setup:
+
+          lukhas quickstart
+
+      All commands:
+
+          lukhas --help
+
+      Docs & API reference → https://lukhas.ai/docs/cli
+    EOS
+  end
+
   test do
     assert_match "LUKHAS", shell_output("#{bin}/lukhas --help 2>&1")
   end
