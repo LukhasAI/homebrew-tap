@@ -4,6 +4,7 @@ class Lukhas < Formula
   desc "LUKHAS CLI — Command-line interface for the Constellation Framework"
   homepage "https://lukhas.ai"
   url "https://github.com/LukhasAI/Lukhas/archive/refs/tags/v0.9.1-syntax-zero.tar.gz"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   version "0.9.1"
   license "Proprietary"
 
@@ -12,7 +13,7 @@ class Lukhas < Formula
   # Core CLI dependencies
   resource "click" do
     url "https://files.pythonhosted.org/packages/source/c/click/click-8.1.8.tar.gz"
-    sha256 "ed53c9d8a4567703ce9cefb4e13f0a379b1b0fff7c09d0e6ab3d61e0f29d6cfb"
+    sha256 "ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"
   end
 
   resource "rich" do
@@ -22,7 +23,7 @@ class Lukhas < Formula
 
   resource "httpx" do
     url "https://files.pythonhosted.org/packages/source/h/httpx/httpx-0.27.2.tar.gz"
-    sha256 "f7c2be1d2f3c3d454ab0acc7d3a68b75d29430f808efa144f746e97db9ea8913"
+    sha256 "f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2"
   end
 
   def install
